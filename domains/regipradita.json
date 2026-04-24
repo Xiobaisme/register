@@ -3,7 +3,7 @@
     "username": "Xiobaisme",
     "email": "regifrdn@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com",
     "MX": [
       {
