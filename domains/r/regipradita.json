@@ -1,17 +1,20 @@
 {
   "owner": {
     "username": "Xiobaisme",
-    "email": "regifrdm@gmail.com"
+    "email": "regifrdn@gmail.com"
   },
-  "description": "Email forwarding",
   "record": {
-    "A": ["76.76.21.21"],
+    "CNAME": "cname.vercel-dns.com",
     "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
+      {
+        "priority": 10,
+        "value": "mx1.improvmx.com"
+      },
+      {
+        "priority": 20,
+        "value": "mx2.improvmx.com"
+      }
     ],
-    "TXT": [
-      "v=spf1 include:spf.improvmx.com ~all"
-    ]
+    "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
   }
 }
